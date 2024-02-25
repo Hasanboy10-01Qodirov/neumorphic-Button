@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
+form{
+    justify-content: center;
+}
+button{
+    text-align: center;
+    padding: 3%;
+    background-color: aqua;
+    margin: 15px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+.form-group button{
+    box-shadow: 50px solid rgba(0, 0, 0, 0.1);
+}
+button:hover{
+    transform: scale(1.08);
+}
+button:active{
+    transform: scale(1);
+    background-color: #000000;
+    color: #fff;
+}
